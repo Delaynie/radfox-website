@@ -301,25 +301,6 @@ header {
         font-size: 15px;
     }
 
-    input, .input {
-        height: auto;
-        padding: 5%;
-        margin-bottom: 5%;
-    }
-
-    textarea {
-        height: auto;
-        padding: 1% 1% 20% 1%;
-        width: 50vh;
-        margin-bottom: 5%;
-    }
-
-    .form {
-        padding: 20%;
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-
 }
 
 
@@ -350,22 +331,6 @@ header {
         font-size: 16px;
     }
 
-    input, .input {
-        height: auto;
-        padding: 10%;
-        margin-bottom: 5%;
-    }
-
-    textarea {
-        height: auto;
-        padding: 1% 1% 10% 1%;
-        width: 50vh;
-        margin-bottom: 5%;
-    }
-
-    .form {
-        padding: 20%;
-    }
     
 }
 
@@ -380,23 +345,6 @@ header {
     }
     .banner-top {
         padding: 8%;
-    }
-
-    input, .input {
-        height: auto;
-        padding: 10%;
-        margin-bottom: 5%;
-    }
-
-    textarea {
-        height: auto;
-        padding: 1% 1% 10% 1%;
-        width: 50vh;
-        margin-bottom: 2%;
-    }
-
-    .form {
-        padding: 20%;
     }
  
 }
