@@ -432,9 +432,7 @@ header {
         margin-bottom: 5%;
     }
 
-    label, input, .input, textarea {
-        padding: 3% 20% 3% 20%;
-    }
+    
 
     textarea {
         height: auto;
@@ -443,8 +441,11 @@ header {
     }
 
     .form {
-        padding: 10%;
-        margin: 1%;
+        
+        width: 98%;
+        display: inline-block;
+        justify-self: center;
+        align-self: center;
     }
 
  
