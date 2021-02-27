@@ -432,6 +432,10 @@ header {
         margin-bottom: 5%;
     }
 
+    label, input, .input, textarea {
+        padding: 3% 20% 3% 20%;
+    }
+
     textarea {
         height: auto;
         padding: 1% 1% 15% 1%;
@@ -440,7 +444,7 @@ header {
 
     .form {
         padding: 10%;
-        
+        margin: 1%;
     }
 
  
