@@ -47,11 +47,27 @@
         }
         
 
-        input {
+        input, .input {
             height: 35px;
             padding: 5px;
             margin-bottom: 20px;
             border-radius: 5px;
+        }
+
+        textarea {
+            height: auto;
+            padding: 1% 1% 5% 1%;
+            width: 50vh;
+            margin-bottom: 1.5%;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .form {
+            background-color: rgb(61, 61, 61);
+            padding: 5%;
+            margin-left: 18%;
+            margin-right: 18%;
+            box-shadow: 2px solid black;
         }
 
         h2 {
@@ -109,19 +125,31 @@
 
     <main class="paragraphs">
             <h2>Let's get down to business</h2>
-                <p>(no huns were harmed in the making of this contact page)</p><br>
-                <h2>Fill out the form and I'll connect with you within one business day!</h2>
+                <h2>Go ahead and fill out the form and I'll do my best to get back to you within one business day!</h2>
         <div>
-        <form class="paragraphs" action="https://formspree.io/f/xrgoweyq" method="post">
+        <form class="form" action="https://formspree.io/f/xrgoweyq" method="post">
 
             <div>
-                <label>Your Name:<br> <input type="text" name="name" placeholder="name"></label><br>
+                <label>Your Name:<br> <input required type="text" name="name" placeholder="name"></label><br>
             </div>
             <div>
-                <label>Your Email:<br> <input type="email" name="_replyto" placeholder="example@gmail.com"></label><br>
+                <label>Your Email:<br> <input required type="email" name="_replyto" placeholder="example@gmail.com"></label><br>
             </div>
             <div>
-                <label>Do you...:<br> <input type="text" name="other" placeholder="other"></label><br>
+                <label>What type of website are you needing?</label>
+            <select required name="purpose" class="input">
+                <option value=""> Select a Website Type </option>
+                <option> Landing Page (1 page site) </option>
+                <option> Basic Site (2-4 page site) </option>
+                <option> Premium Site (5+ page site, best for shops) </option>
+                <option> Not sure yet, I need some guidance! </option>
+              </select>
+            </div>
+            <div>
+                <label>Additional Comments: <br>
+                    (Feel free to tell me about your awesome business, or perhaps what you're looking for in a website, etc.) <br>
+                <textarea required id="comments" name="comments" placeholder="message"></textarea>
+                </label>
             </div>
             <div>
                 <input class="btn" type="submit" name="submit" value="Send Inquiry"></a>
