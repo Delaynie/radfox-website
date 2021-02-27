@@ -380,7 +380,9 @@ header {
         margin-bottom: 5%;
     }
 
-    
+    label {
+        font-size: 18px;
+    }
 
     textarea {
         height: auto;
@@ -389,13 +391,16 @@ header {
     }
 
     .form {
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         
-        width: 98%;
-        display: inline-block;
-        justify-self: center;
-        align-self: center;
     }
 
+    footer {
+        width: auto;
+    }
  
 }
 
