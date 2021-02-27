@@ -48,6 +48,7 @@ header {
 
   footer {
       background-color: rgb(61, 61, 61);
+      background-size: cover;
   }
 
 /* ----- Dropdown Menu ----- */
@@ -317,18 +318,18 @@ header {
     }
 
     .mobile p {
-        font-size: 15px;
+        font-size: 25px;
         padding-left: 10%;
         padding-right: 10%;
     }
 
     .Iam p {
-        font-size: 22px;
+        font-size: 25px;
         padding: 0px;
     }
 
     header button, a {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     
@@ -371,7 +372,7 @@ header {
     .mobile p {
         padding-left: 2%;
         padding-right: 2%;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     input, .input {
@@ -391,15 +392,15 @@ header {
     }
 
     .form {
-        padding: 40px;
+        padding: 10%;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        
     }
 
     footer {
-        width: auto;
+        background-color: rgb(61, 61, 61);
+        background-size: cover;
     }
  
 }
