@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+    <title>RadFox Web Development</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <!--link google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    
+    <!-- FAVICON ICONS -->
+
+
+    <!-- Email Icon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    
+    
+    <!--link gridlex-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+    
+    <!--link css-->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .bgd-square {
+            background-color: rgb(53, 52, 52);
+        }
+        .no-border {
+            box-shadow: none;
+            border-color: transparent;
+        }
+        .no-border:hover {
+            background-color: inherit;
+            opacity: .8;
+        }
+
+        header {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 55%, 50.5% 100%, 25% 75%, 0% 55%);
+            background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
+        }
+        
+        
+    </style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  formbutton("create", {action: "https://formspree.io/f/xrgoweyq"})
+</script>
+
+   </head>
+<body class="grid tablet mobile container">
+
+
+    <!-- original header -->
+   <header class="container banner-top">
+        <div class="container">
+            <nav class="text">
+            <button><a href="index.html">home</a></button>
+            <button><a href="portfolio.html">portfolio</a></button>
+            </nav>
+        </div>
+
+        <div class="col-2">
+            <a class="no-border small">
+                <img src="favicon_io/radfox-apple-touch-icon.png">
+            </a>
+            </div>
+
+        <div class="container">
+            <nav class="text">
+            <button><a href="about.html">about</a></button>
+            <button><a href="contact.html">contact</a></button>
+            </nav>
+           <!-- <button class="icon"><img src="favicon_io/favicon-32x32.png" alt="contact us">
+            </button-->
+           
+        </div>
+            
+    </header>
+
+    <!-- HTML FOR DROPDOWN MENU -->
+            <!--<svg width="12" height="12" viewBox="0 0 24 24">
+                <path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/>
+            </svg>-->
+    <section>
+    <div class="dropdown trigger-menu-wrapper">
+        <button class="dropbtn no-border trigger-menu mobile-header">
+              <br>Menu</br>
+              <img src="favicon_io/radfox-favicon.ico">
+        </button>
+            <div class="dropdown-content">
+                <a href="index.html">home</a>
+                <a href="about.html">about</a>
+                <a href="portfolio.html">portfolio</a>
+                <a href="contact.html">contact</a>
+            </div>
+    </div>
+    </section>
+
+    <!-- Section One AKA what the user sees first -->
+    <section class="grid Iam">
+        <div>
+            <span>
+                <p class="col-12">Hey, welcome to my site.</p></span>
+                <span>
+                <p class="col-12">So, you need a website that is...</p>
+            </span>
+        
+        
+             <b>
+            <div class="col-12 innerIam">
+             beautiful<br /> 
+             simple<br />
+             user friendly<br />
+             responsive<br />
+             creative<br />
+            </div>
+            </b>
+        </div>
+</section>
+
+<!-- Description of what we do, something short and to the point -->
+
+<section>
+    <div class="col-12 padding paragraphs tablet mobile">
+      <h2>and I've got you covered.</h2>
+      <p>My passion is creating user-friendly and simple yet creative websites.
+           Your business website will speak volumes to potential clients that visit. 
+           You need it to showcase exactly what you do and what your brand is all about.</p>
+           <p> Fortunately, I enjoy 
+           staying up to date on modern design, UX/UI best practices, and all those tricks and tips that help convince your visitors that your business is exactly what they've been searching for.</p>
+      </div>
+</section>
+    
+
+<!-- SERVICES SECTION that will include link to services page/call to action -->
+ <div class="banner-btm">
+    <section class="paragraphs tablet mobile">
+        <h2> The Standards You'll Recieve </h2>
+        <div class="grid">
+          <div class="col-4_md-12_sm-12 bgd-square">
+            <h4> Intuitive </h4>
+            <p> Part of my building process is staying on top of the best UX/UI practices to keep your site user friendly and beautiful.</p>
+          </div>
+          <div class="col-4_md-12_sm-12 bgd-square">
+            <h4> Responsive </h4>
+            <p>Your website will work on devices large, small, and everything in between.</p>
+          </div>
+          <div class="col-4_md-12_sm-12 bgd-square">
+            <h4> Dynamic </h4>
+            <p>Using JavaScript, features will be built into your website to keep it running (and scrolling) smoothly.</p>
+          </div>
+        </div>
+    </section>
+</div>
+    <!-- We need a banner here or something to break up the page -->
+    <section>
+    <div>
+       
+    </div>
+    </section>
+    <!-- SECTION that will include maybe bio or workflow or ... idk yet D: -->
+ 
+    <section class="grid paragraphs tablet mobile">
+        <h2 class="col-12"> Take a peek at some of my creations </h2><br>
+
+            <h4 class="col-12">Mock Site One</h4>
+            
+            <h4 class="col-6_sm-12">Mock Site Two</h4>
+         
+            <h4 class="col-6_sm-12"> Mock Site Three</h4>
+          
+    </section>
+
+    <!-- SECTION with the contact me/ hire me button -->
+    <section class=" grid paragraphs tablet mobile">
+        <div>
+               <h2 class="col-12">Are you ready to connect?</h2><br>
+        
+               <a href="contact.html" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+
+      <!-- footer for insta link and copyrights -->
+
+        <footer class="col-12 paragraphs">
+            
+            <div class="tiny">
+            <!-- stuff for footer here -->    
+            <p>Built by RadFox &copy; 2020-2021 all rights reserved.</p>
+            </div>
+        </footer>
+
+</body>
+</html>

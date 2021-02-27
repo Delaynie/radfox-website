@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+    <title>RadFox Web Agency</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    
+    <!--link google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    
+    <!-- FAVICON ICONS -->
+
+
+    <!-- Email Icon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    
+    
+    <!--link gridlex-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+    
+    <!--link css-->
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        .no-border {
+            box-shadow: none;
+            border-color: transparent;
+        }
+        .no-border:hover {
+            background-color: inherit;
+            opacity: .8;
+        }
+
+        header {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 55%, 50.5% 100%, 25% 75%, 0% 55%);
+        }
+        
+
+        input {
+            height: 35px;
+            padding: 5px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            margin: 5%;
+            height: auto;
+        }
+        
+    </style>
+
+    </head>
+
+    <body class="grid tablet mobile container">
+
+        <header class="container banner-top">
+            <div class="container">
+                <nav class="text">
+                    <button><a href="index.html">home</a></button>
+                    <button><a href="portfolio.html">portfolio</a></button>
+                    </nav>
+                </div>
+        
+                <div class="col-2">
+                    <a href="index.html" class="no-border">
+                        <img src="favicon_io/radfox-apple-touch-icon.png">
+                    </a>
+                </div>
+        
+                <div class="container">
+                    <nav class="text">
+                    <button><a href="about.html">about</a></button>
+                    <button><a href="contact.html">contact</a></button>
+                </nav>
+                <!--<button class="icon"><img src="favicon_io/favicon-32x32.png" alt="contact us">
+                </button>-->
+               
+            </div>
+                
+        </header>
+
+        <!-- drop down menu -->
+        <section>
+            <div class="dropdown trigger-menu-wrapper">
+                <button class="dropbtn no-border trigger-menu mobile-header">
+                      <br>Menu</br>
+                      <img src="favicon_io/radfox-favicon.ico">
+                </button>
+                    <div class="dropdown-content">
+                        <a href="index.html">home</a>
+                        <a href="services.html">about</a>
+                        <a href="portfolio.html">portfolio</a>
+                        <a href="contact.html">contact</a>
+                    </div>
+            </div>
+            </section>
+
+    <main class="paragraphs">
+            <h2>Let's get down to business</h2>
+                <p>(no huns were harmed in the making of this contact page)</p><br>
+                <h2>Fill out the form and I'll connect with you within one business day!</h2>
+        <div>
+        <form class="paragraphs" action="https://formspree.io/f/xrgoweyq" method="post">
+
+            <div>
+                <label>Your Name:<br> <input type="text" name="name" placeholder="name"></label><br>
+            </div>
+            <div>
+                <label>Your Email:<br> <input type="email" name="_replyto" placeholder="example@gmail.com"></label><br>
+            </div>
+            <div>
+                <label>Do you...:<br> <input type="text" name="other" placeholder="other"></label><br>
+            </div>
+            <div>
+                <input class="btn" type="submit" name="submit" value="Send Inquiry"></a>
+            </div>
+
+        </form>
+        </div>
+    </main>
+
+
+        <!-- footer for insta link and copyrights -->
+
+        <footer class="col-12 paragraphs">
+            <div class="tiny">
+            <!-- stuff for footer here -->    
+            <p>Built by RadFox &copy; 2020-2021 all rights reserved.</p>
+            </div>
+        </footer>
+    </body>
