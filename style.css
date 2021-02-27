@@ -112,6 +112,29 @@ header {
 
 /* ----- End of Dropdown Menu -----*/
 
+input, .input {
+    height: 35px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+textarea {
+    height: auto;
+    padding: 1% 1% 5% 1%;
+    width: 50vh;
+    margin-bottom: 1.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form {
+    background-color: rgb(61, 61, 61);
+    padding: 5%;
+    margin-left: 18%;
+    margin-right: 18%;
+    box-shadow: 1px .5px 5px .5px rgb(37, 37, 37);
+}
+
 /* ALL classes and Universal Styles */
 .banner-top, .banner-btm {
     background-color: inherit;
@@ -382,7 +405,7 @@ header {
     }
 
     label {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     textarea {
@@ -396,6 +419,7 @@ header {
         display: flex;
         justify-content: center;
         flex-direction: column;
+        margin: 0;
     }
 
     footer {
