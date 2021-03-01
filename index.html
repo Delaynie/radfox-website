@@ -2,7 +2,7 @@
 
 <html>
    <head>
-    <title>RadFox Web Development</title>
+    <title>RadFox Web Agency</title>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     
@@ -59,19 +59,25 @@
   formbutton("create", {action: "https://formspree.io/f/xrgoweyq"})
 </script>
 
+ <!-- This adds jquery and smooth scrolling, not part of the course but just to make your site look great! -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="main.js"></script>
+
+
    </head>
-<body class="grid tablet mobile container">
+<body class="grid tablet mobile container" id="body">
 
 
     <!-- original header -->
    <header class="container banner-top">
+
         <div class="container">
             <nav class="text">
             <button><a href="index.html">home</a></button>
-            <button><a href="portfolio.html">portfolio</a></button>
+            <button><a href="#portfolio">portfolio</a></button>
             </nav>
         </div>
-
+        
         <div class="col-2">
             <a class="no-border small">
                 <img src="favicon_io/radfox-apple-touch-icon.png">
@@ -83,11 +89,8 @@
             <button><a href="about.html">about</a></button>
             <button><a href="contact.html">contact</a></button>
             </nav>
-           <!-- <button class="icon"><img src="favicon_io/favicon-32x32.png" alt="contact us">
-            </button-->
            
         </div>
-            
     </header>
 
     <!-- HTML FOR DROPDOWN MENU -->
@@ -96,6 +99,9 @@
             </svg>-->
     <section>
     <div class="dropdown trigger-menu-wrapper">
+        <div class="mobile-display">
+            <h2>RadFox Web Agency</h2>
+        </div>
         <button class="dropbtn no-border trigger-menu mobile-header">
               <br>Menu</br>
               <img src="favicon_io/radfox-favicon.ico">
@@ -173,7 +179,7 @@
     </section>
     <!-- SECTION that will include maybe bio or workflow or ... idk yet D: -->
  
-    <section class="grid paragraphs tablet mobile">
+    <section class="grid paragraphs tablet mobile" id="portfolio">
         <h2 class="col-12"> Take a peek at some of my creations </h2><br>
 
             <h4 class="col-12">Mock Site One</h4>

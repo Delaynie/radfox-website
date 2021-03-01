@@ -1,5 +1,6 @@
 * {
     padding: 0;
+    margin: 0;
     overflow-x: hidden;
     box-sizing: border-box;
 }
@@ -304,6 +305,10 @@ textarea {
           background-color: rgb(49, 102, 56);
       }
 
+      .mobile-display {
+        display: none;
+    }
+
   /* ---------------- Responsive TABLET design -------------------------- */
 
 @media (max-width:900px) {
@@ -355,6 +360,43 @@ textarea {
         font-size: 20px;
     }
 
+    input, .input {
+        height: auto;
+        padding: 1% 2% 8% 2%;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+
+    label {
+        font-size: 22px;
+        width: 100%;
+    }
+
+    textarea {
+        height: auto;
+        padding: 1% 1% 15% 1%;
+        margin-bottom: 3%;
+        width: 100%;
+    }
+
+    .form {
+        padding: 10%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .btn-mobile {
+        width: 100%;
+        height: auto;
+        padding: 4%;
+    }
+
+    footer {
+        background-color: rgb(61, 61, 61);
+        background-size: cover;
+    }
     
 }
 
@@ -369,6 +411,18 @@ textarea {
     }
     .banner-top {
         padding: 8%;
+    }
+
+    #body .mobile-display {
+        display: inline-block;
+        padding: 4%;
+        width: 100%;
+        font-size: 3%;
+        position: fixed;
+        top: 1%;
+        left: 10%;
+        z-index: 2;
+        color: #999;
     }
  
 }
@@ -396,35 +450,6 @@ textarea {
         padding-left: 2%;
         padding-right: 2%;
         font-size: 18px;
-    }
-
-    input, .input {
-        height: auto;
-        padding: 1% 2% 8% 2%;
-        margin-bottom: 5%;
-    }
-
-    label {
-        font-size: 22px;
-    }
-
-    textarea {
-        height: auto;
-        padding: 1% 1% 15% 1%;
-        margin-bottom: 3%;
-    }
-
-    .form {
-        padding: 10%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin: 0;
-    }
-
-    footer {
-        background-color: rgb(61, 61, 61);
-        background-size: cover;
     }
  
 }
