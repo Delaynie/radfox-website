@@ -73,21 +73,21 @@
 
         <div class="container">
             <nav class="text">
-            <button><a href="index.html">home</a></button>
+            <button><a href="#about">about</a></button>
             <button><a href="#portfolio">portfolio</a></button>
             </nav>
         </div>
         
         <div class="col-2">
-            <a class="no-border small">
+            <a class="no-border small" id="top">
                 <img src="favicon_io/radfox-apple-touch-icon.png">
             </a>
             </div>
 
         <div class="container">
             <nav class="text">
-            <button><a href="about.html">about</a></button>
-            <button><a href="contact.html">contact</a></button>
+            <button><a href="#services">services</a></button>
+            <button><a href="#contact">contact</a></button>
             </nav>
            
         </div>
@@ -107,10 +107,11 @@
               <img src="favicon_io/radfox-favicon.ico">
         </button>
             <div class="dropdown-content">
-                <a href="index.html">home</a>
-                <a href="about.html">about</a>
-                <a href="portfolio.html">portfolio</a>
-                <a href="contact.html">contact</a>
+                <a href="#top">to the top</a>
+                <a href="#about">about</a>
+                <a href="#portfolio">portfolio</a>
+                <a href="#services">services</a>
+                <a href="#contact">contact</a>
             </div>
     </div>
     </section>
@@ -140,9 +141,9 @@
 <!-- Description of what we do, something short and to the point -->
 
 <section>
-    <div class="col-12 padding paragraphs tablet mobile">
-      <h2>and I've got you covered.</h2>
-      <p>My passion is creating user-friendly and simple yet creative websites.
+    <div class="col-12 padding paragraphs tablet mobile padded-top" id="about">
+      <h2>I've got you covered.</h2>
+      <p class="padded-top">My passion is creating user-friendly and simple yet creative websites.
            Your business website will speak volumes to potential clients that visit. 
            You need it to showcase exactly what you do and what your brand is all about.</p>
            <p> Fortunately, I enjoy 
@@ -155,57 +156,113 @@
  <div class="banner-btm">
     <section class="paragraphs tablet mobile">
         <h2> The Standards You'll Recieve </h2>
-        <div class="grid">
+        <div class="grid padded-top">
           <div class="col-4_md-12_sm-12 bgd-square">
-            <h4> Intuitive </h4>
+            <h4 class="padded-top"> Intuitive </h4>
             <p> Part of my building process is staying on top of the best UX/UI practices to keep your site user friendly and beautiful.</p>
           </div>
           <div class="col-4_md-12_sm-12 bgd-square">
-            <h4> Responsive </h4>
+            <h4 class="padded-top"> Responsive </h4>
             <p>Your website will work on devices large, small, and everything in between.</p>
           </div>
           <div class="col-4_md-12_sm-12 bgd-square">
-            <h4> Dynamic </h4>
-            <p>Using JavaScript, features will be built into your website to keep it running (and scrolling) smoothly.</p>
+            <h4 class="padded-top"> Dynamic </h4>
+            <p>Features will be built into your website to keep it running (and scrolling) smoothly.</p>
           </div>
         </div>
     </section>
 </div>
-    <!-- We need a banner here or something to break up the page -->
-    <section>
-    <div>
-       
-    </div>
-    </section>
+    
     <!-- SECTION that will include maybe bio or workflow or ... idk yet D: -->
  
-    <section class="grid paragraphs tablet mobile">
+    <section class="paragraphs tablet mobile">
         
-        <h2 class="col-12"> Here are some of my sample sites: </h2><br>
-        <p class="grid-middle" style="color: transparent;">fitness studio</p>
-        <a href="https://gifted-bartik-79a302.netlify.app/"><div class="hexagon hexagon2"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></a>
-        <a href="/contact.html"><div class="hexagon hexagon2"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></a>
-        <a href="/contact.html"><div class="hexagon hexagon2"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></a>
+        <h2 class="col-12 padded-top"> Take a peek at a few of my sample sites: </h2><br>
+        <a class="col-12" id="link" href="https://gifted-bartik-79a302.netlify.app/">Fitness Studio</a>
+        <a class="col-6_sm-12" id="link" href="https://laughing-meitner-b7ba04.netlify.app/">Bakery</a>
+        <a class="col-6_sm-12" id="link" href="https://naughty-jang-688637.netlify.app/">Farmer's Market</a>
+        
+        <!--<a href="/"><div class="hexagon hexagon2"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></a>
+        <a href="/"><div class="hexagon hexagon2"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></a>
+        <a href="/"><div class="hexagon hexagon2"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div></a> -->
     
     </section>
 
-    <!-- SECTION with the contact me/ hire me button -->
-    <section class=" grid paragraphs tablet mobile">
+    <section class="padded centered paragraphs left" id="services">
+        <h2> The Sites We Offer </h2>
+        <p> Whatever your needs are, I'm happy to customize a package just for you. Websites are built from scratch and base prices for a 1 page site start at $200. Once we review what your website needs are and more of what you're wanting, we'll send you a quote. </p>
+        <div class="grid padded-1">
+      
+          <div class="col-4_sm-12 padded-05">
+            <a href="#" class="clickable-box bg-image" style="background-image:url('/images/wellness-1.jpg')">
+              <div class="overlay padded light-text">
+                <h3> 1 Page Sites </h3>
+                <p> Best for one-person operations or small businesses that need an online presence and a main space that provides contact info, links, portfolios, etc. </p>
+              </div>
+            </a>
+          </div>
+      
+          <div class="col-4_sm-12 padded-05">
+            <a href="#" class="clickable-box bg-image" style="background-image:url('/images/wellness-2.jpg')">
+              <div class="overlay padded light-text">
+                <h3> 2-5 Page Sites </h3>
+                <p> Great option for small businesses who are in the hospitality or food industry, or perhaps something like a yoga studio that has scheduling and payment needs. </p>
+              </div>
+            </a>
+          </div>
+      
+          <div class="col-4_sm-12 padded-05">
+            <a href="#" class="clickable-box bg-image" style="background-image:url('/images/wellness-3.jpg')">
+              <div class="overlay padded light-text">
+                <h3> Website Makeovers </h3>
+                <p> Already have a site, but it's outdated or not quite what you wanted? We offer a refactoring service to give your website a facelift and bring it into 2021. </p>
+              </div>
+            </a>
+          </div>
+      
+        </div>
+      
+      </section>
+
+    <!-- CONTACT ME SECTION  -->
+
+    <section class="grid padded paragraphs" id="contact">
+        <div class="col-12 padded">
+          <h2> Connect With Me </h2>
+          <p> Tell me about your awesome business and what your vision is when you imagine what your website will look like. If you're unsure of what you want or need, don't worry about it at all. I'm ready to work and make this process easy for you!</p>
+          <p> <strong> Email: </strong> <a href="radfoxweb@gmail.com" id="link"> RadFoxWeb@gmail.com </a> </p>
+        </div>
+        <div class="col-12-middle padded">
+          <form class="grid-center" action="https://formspree.io/hello@company.com" method="POST">
+            <div class="col-3_sm-12">
+              <input type="text" name="name" placeholder="Your Name">
+            </div>
+            <div class="col-3_sm-12">
+              <input type="email" name="_replyto" placeholder="Your Email">
+            </div>
+            <div class="col-12">
+              <textarea placeholder="Your Message"></textarea></div>
+            <div class="col-3_sm-12">  <input type="submit" value="Send" class="btn"> </div>
+            </div>
+          </form>
+        </div>
+      </section>
+<!--
+    <section class="col-12 paragraphs tablet mobile">
         <div>
-               <h2 class="col-12">Are you ready to connect?</h2><br>
+               <h2 class="col-12">Ready to connect?</h2><br>
         
                <a href="contact.html" class="btn">Contact Me</a>
-        </div>
+            </div>
     </section>
 
-
+-->
       <!-- footer for insta link and copyrights -->
 
         <footer class="col-12 paragraphs">
             
             <div class="tiny">
-            <!-- stuff for footer here -->  
-            <a href="radfoxweb@gmail.com"> RadFoxWeb@gmail.com </a>  
+            <!-- stuff for footer here -->   
             <p>Built by RadFox &copy; 2020-2021 all rights reserved.</p>
             </div>
         </footer>
