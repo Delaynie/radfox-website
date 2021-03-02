@@ -342,6 +342,7 @@ textarea {
 
       #link {
         color: rgb(84, 177, 97);
+        visibility: visible;
       }
       #link:hover {
         color: rgb(67, 139, 77);
@@ -509,7 +510,7 @@ textarea {
 }
 
 @media (max-width:678px) {
-    header button, a {
+    header button, #a {
         display: none;
     }
 
