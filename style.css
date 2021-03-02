@@ -115,8 +115,8 @@ header {
 
 input, .input {
     height: 35px;
-    padding: 5px;
-    margin-bottom: 20px;
+    padding: 5%;
+    margin-bottom: 5%;
     border-radius: 5px;
     width: 100%;
 }
@@ -124,7 +124,7 @@ input, .input {
 textarea {
     height: auto;
     padding: 1% 1% 5% 1%;
-    width: 50vh;
+    width: 80vh;
     margin-bottom: 1.5%;
     font-family: 'Montserrat', sans-serif;
 }
@@ -401,6 +401,16 @@ textarea {
       .mobile-display {
         display: none;
     }
+
+    .left     {  text-align: left;     }
+  .right    {  text-align: right;    }
+  .centered {  text-align: center;   }
+
+
+  .padded   {  padding: 5%;    }
+  .padded-05 {  padding: 0.5rem;  }
+  .padded-1 {  padding: 1rem;  }
+  .padded-2 {  padding: 2rem;  }
 
   /* ---------------- Responsive TABLET design -------------------------- */
 
