@@ -69,6 +69,7 @@
 
 
     <!-- original header -->
+    
    <header class="container banner-top">
 
         <div class="container">
@@ -92,31 +93,26 @@
            
         </div>
     </header>
-
-    <!-- HTML FOR DROPDOWN MENU -->
-            <!--<svg width="12" height="12" viewBox="0 0 24 24">
-                <path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/>
-            </svg>-->
     <section>
-    <div class="dropdown trigger-menu-wrapper">
-        <div class="mobile-display">
+    <!--<div class="dropdown trigger-menu-wrapper">
+        <div class="mobile-display" >
             <h2>RadFox Web Agency</h2>
         </div>
-        <button class="dropbtn no-border trigger-menu mobile-header">
-              <br>Menu</br>
-              <img src="favicon_io/radfox-favicon.ico">
-        </button>
-            <div class="dropdown-content">
-                <a href="#top">to the top</a>
-                <a href="#about">about</a>
-                <a href="#portfolio">portfolio</a>
-                <a href="#services">services</a>
-                <a href="#contact">contact</a>
-            </div>
     </div>
-    </section>
+    </section> -->
 
-    <!-- Section One AKA what the user sees first -->
+    <!-- Use any element to open the sidenav -->
+    <button class="trigger-menu dropbtn no-border mobile-header" onclick="openNav()"><img src="favicon_io/radfox-favicon.ico"><br>Menu</br></button>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#top" onclick="closeNav()">to the top</a>
+            <a href="#about" onclick="closeNav()">about</a>
+            <a href="#portfolio" onclick="closeNav()">portfolio</a>
+            <a href="#services" onclick="closeNav()">services</a>
+            <a href="#contact" onclick="closeNav()">contact</a>
+    </div>
+    
+    <!-- Section One -->
     <section class="grid Iam">
         <div>
             <span>
@@ -266,6 +262,8 @@
             <p>Built by RadFox &copy; 2020-2021 all rights reserved.</p>
             </div>
         </footer>
+
+        <script src="main.js"></script>
 
 </body>
 </html>

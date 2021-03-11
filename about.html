@@ -31,6 +31,72 @@
     <!--link css-->
     <link rel="stylesheet" href="style.css">
     <style>
+
+* {
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    body {
+  background: #272727;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+    
+    .menu-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+  /* border: 3px solid #fff; */
+}
+.menu-btn__burger {
+  width: 50px;
+  height: 6px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255,101,47,.2);
+  transition: all .5s ease-in-out;
+}
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 6px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255,101,47,.2);
+  transition: all .5s ease-in-out;
+}
+.menu-btn__burger::before {
+  transform: translateY(-16px);
+}
+.menu-btn__burger::after {
+  transform: translateY(16px);
+}
+/* ANIMATION */
+.menu-btn.open .menu-btn__burger {
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none;
+}
+.menu-btn.open .menu-btn__burger::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+.menu-btn.open .menu-btn__burger::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}
+
+    /*
         .bgd-square {
             background-color: rgb(53, 52, 52);
         }
@@ -46,7 +112,7 @@
         header {
             clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 55%, 50.5% 100%, 25% 75%, 0% 55%);
             background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
-        }
+        }*/
         
         
     </style>
@@ -94,7 +160,7 @@
             <!--<svg width="12" height="12" viewBox="0 0 24 24">
                 <path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/>
             </svg>-->
-    <section>
+  <!--  <section>
     <div class="dropdown trigger-menu-wrapper">
         <div class="mobile-display">
             <h2>RadFox Web Agency</h2>
@@ -116,6 +182,11 @@
         <h1>
             About
         </h1>
-    </div>
+    </div> -->
+    <div class="menu-btn">
+        <div class="menu-btn__burger">
+        </div>
+      </div>
+      <script src="main.js"></script>
     </body>
 </html>
