@@ -401,6 +401,11 @@ textarea {
         display: none;
     }
 
+    #portfolio {
+        height: auto;
+        overflow-x: hidden;
+    }
+
     .left     {  text-align: left;     }
   .right    {  text-align: right;    }
   .centered {  text-align: center;   }
