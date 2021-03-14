@@ -209,7 +209,6 @@ textarea {
     justify-content: center;
     overflow: hidden;
     width: auto;
-    height: auto;
   }
   .Iam b {
     display: block;
@@ -361,7 +360,7 @@ textarea {
         text-decoration: none;
         box-shadow: 0 rgba(0, 0, 0, 0); /* so that we can add a transition */
         transition: 0.2s all;
-        display: block;
+        display: inline-block;
         background: linear-gradient(0deg, #17241b93 30%, #05a70544 100%);
         border-radius: 5px;
       }
@@ -417,8 +416,8 @@ textarea {
     }
 
     #portfolio {
-        height: auto;
-        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     .left     {  text-align: left;     }
