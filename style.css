@@ -174,7 +174,7 @@ textarea {
     font: normal 20px/40px Montserrat, sans-serif;
     color: rgb(173, 172, 172);
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .padding {
@@ -185,8 +185,8 @@ textarea {
 .padded-top { padding-top: 2%; }
   
   .Iam {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     font: normal 40px/50px Montserrat, sans-serif;
     color: #999;
     display: flex;
@@ -199,7 +199,7 @@ textarea {
    }
 
     .Iam div {
-        padding-bottom: 20%;
+        padding-bottom: 10%;
         text-align: center;
     
     }
@@ -209,6 +209,7 @@ textarea {
     justify-content: center;
     overflow: hidden;
     width: auto;
+    height: auto;
   }
   .Iam b {
     display: block;
@@ -361,7 +362,7 @@ textarea {
         box-shadow: 0 rgba(0, 0, 0, 0); /* so that we can add a transition */
         transition: 0.2s all;
         display: block;
-        background: linear-gradient(0deg, #17241b88 30%, #08f70844 100%);
+        background: linear-gradient(0deg, #17241b93 30%, #05a70544 100%);
         border-radius: 5px;
       }
       
@@ -417,7 +418,7 @@ textarea {
 
     #portfolio {
         height: auto;
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     .left     {  text-align: left;     }
