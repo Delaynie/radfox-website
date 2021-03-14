@@ -361,23 +361,37 @@ textarea {
         box-shadow: 0 rgba(0, 0, 0, 0); /* so that we can add a transition */
         transition: 0.2s all;
         display: block;
+        background: linear-gradient(0deg, #17241b88 30%, #08f70844 100%);
+        border-radius: 5px;
       }
       
       .clickable-box .overlay {
         min-height: 12rem;
         padding: 3rem 1rem;
         background-color: rgba(0,0,10,0.4);
-        color: white;
+        color: rgb(221, 218, 218);
       }
       
       .clickable-box p {
         margin-bottom: 0;
+        padding-bottom: 4%;
       }
       
       .clickable-box:hover {
         background-color: rgba(0,0,10,0.6);
         box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 20px -5px rgba(0, 0, 0, 0.4);
         margin-top:-2px;
+      }
+
+      .clickable-box a {
+          color: inherit;
+          box-sizing: border-box;
+          border: 1px solid rgb(165, 164, 164);
+          padding: 4%;
+      }
+
+      .clickable-box a:hover {
+          background-color: rgb(2, 49, 8);
       }
 
   .btn {
@@ -419,6 +433,10 @@ textarea {
   /* ---------------- Responsive TABLET design -------------------------- */
 
 @media (max-width:900px) {
+
+    .mobile-hide {
+        display: none;
+    }
 
     .tablet h2 {
         font-size: 28px;
