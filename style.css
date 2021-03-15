@@ -60,7 +60,7 @@ header {
     position: fixed; /* Stay in place */
     z-index: 2; /* Stay on top */
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
+    padding-top: 80px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     top: 0;
     right: 0;
@@ -154,6 +154,7 @@ textarea {
     width: 100%;
     padding-top: 2%;
     padding-bottom: 5%;
+    z-index: 1;
  }
 
  .container-2 {
@@ -161,6 +162,7 @@ textarea {
     width: 100%;
     padding-top: 2%;
     padding-bottom: 5%;
+    z-index: 1;
  }
  
  .text {
