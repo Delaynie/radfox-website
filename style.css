@@ -154,7 +154,6 @@ textarea {
     width: 100%;
     padding-top: 2%;
     padding-bottom: 5%;
-    z-index: 1;
  }
 
  .container-2 {
@@ -162,7 +161,6 @@ textarea {
     width: 100%;
     padding-top: 2%;
     padding-bottom: 5%;
-    z-index: 1;
  }
  
  .text {
@@ -210,13 +208,14 @@ textarea {
     .Iam div {
         padding-bottom: 10%;
         text-align: center;
-    
+        overflow: hidden;
     }
   .Iam p {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
     width: auto;
   }
   .Iam b {
@@ -592,7 +591,8 @@ textarea {
         font-size: 18px;
     }
 
-    .sidenav {padding-top: 15px;}
+    .sidenav {padding-top: 15px;
+        padding-top: 80px;}
     .sidenav a {font-size: 18px;}
  
     .border-buttons {
