@@ -432,7 +432,7 @@ textarea {
         overflow-y: hidden;
         height: auto;
         box-sizing: border-box;
-        
+        position: fixed;
     }
 
     .left     {  text-align: left;     }
