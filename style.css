@@ -430,8 +430,9 @@ textarea {
     #portfolio {
         overflow-x: hidden;
         overflow-y: hidden;
-        height: auto;
+        height: 100%;
         box-sizing: border-box;
+        
     }
 
     .left     {  text-align: left;     }
