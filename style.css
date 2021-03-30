@@ -219,7 +219,7 @@ textarea {
     width: auto;
   }
   .Iam b {
-    display: block;
+    display: inline-block;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -296,7 +296,7 @@ textarea {
       80% { top: -200px; }
   }
 
-  /* Hexagon Css */
+  /* Hexagon Css 
 
 .hexagon
       {   overflow: hidden;
@@ -340,7 +340,7 @@ textarea {
       {   width: 200px;
           height: 400px;
           margin: -80px 0 0 20px;
-      }
+      }*/
 
       #row {
           flex-direction: row;
@@ -391,7 +391,7 @@ textarea {
         margin-top:-2px;
       }
 
-      .clickable-box a {
+      .clickable-box a, #btn-border {
           color: inherit;
           box-sizing: border-box;
           border: 1px solid rgb(165, 164, 164);
@@ -400,6 +400,10 @@ textarea {
 
       .clickable-box a:hover {
           background-color: rgb(2, 49, 8);
+      }
+
+      #btn-border {
+          font-size: 15px;
       }
 
   .btn {
