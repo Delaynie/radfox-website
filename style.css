@@ -343,12 +343,14 @@ textarea {
           flex-direction: row;
       }
 
-      #link {
+      .link {
         color: rgb(84, 177, 97);
         visibility: visible;
         overflow: hidden;
+        height: auto;
+        box-sizing: border-box;
       }
-      #link:hover {
+      .link:hover {
         color: rgb(67, 139, 77);
       }
 
@@ -429,6 +431,7 @@ textarea {
         overflow-x: hidden;
         overflow-y: hidden;
         height: auto;
+        box-sizing: border-box;
     }
 
     .left     {  text-align: left;     }
