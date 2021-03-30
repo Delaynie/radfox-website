@@ -8,9 +8,6 @@
 body {
     background: #2d2d2d;
     font-family: 'Montserrat', sans-serif;
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
 }
 
  
@@ -349,6 +346,7 @@ textarea {
       #link {
         color: rgb(84, 177, 97);
         visibility: visible;
+        overflow: hidden;
       }
       #link:hover {
         color: rgb(67, 139, 77);
