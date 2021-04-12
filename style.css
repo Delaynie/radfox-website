@@ -10,7 +10,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
- 
 nav {
     padding: 0;
     align-items: center;
@@ -22,7 +21,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-bottom: 5%;
-    z-index: 2;
+    z-index: 0;
 }
   header button, a {
       padding: .5% 2%;
@@ -48,7 +47,7 @@ header {
       background-size: cover;
   }
 
-/* NEW DROPDOWN MENU FOR MOBILE */
+/* DROPDOWN MENU FOR MOBILE */
 
 /* The side navigation menu */
 .sidenav {
@@ -73,8 +72,9 @@ header {
     font-size: 36px;
     margin-left: 50px;
   }
-
-.dropbtn {
+  
+  .dropbtn {
+    opacity: 1;
     position: fixed;
     top: 0;
     right: 2%;
@@ -85,7 +85,8 @@ header {
     color: white;
     text-decoration: none;
     cursor: pointer;
-  }
+    z-index: 2;
+}
 
   .trigger-menu img:hover {
     transform: rotate(45deg);
@@ -484,6 +485,22 @@ textarea {
   .padded-05 {  padding: 0.5rem;  }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
+
+  /* ANIMATED SCROLL */
+  .aos {
+    position: relative;
+    top: 40px;
+    opacity: 0;
+    transition: 0.2s ease-out;
+    margin-bottom: 5vh;
+}
+
+.aos.active {
+    top: 0;
+    opacity: 1;
+    transform: translateY(-30px);
+    transition: 0.5s ease-in;
+}
 
   /* ---------------- Responsive TABLET design -------------------------- */
 
