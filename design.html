@@ -6,8 +6,6 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     
-    <!--link gridlex-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
     <!--link google fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
@@ -17,29 +15,285 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     
+    <!-- FAVICON ICONS -->
+
+
+    <!-- Email Icon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    
+    
+    <!--link gridlex-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
     
     <!--link css-->
-   <!-- <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .bgd-square {
+            background-color: rgb(53, 52, 52);
+        }
+        .no-border {
+            box-shadow: none;
+            border-color: transparent;
+        }
+        .no-border:hover {
+            background-color: inherit;
+            opacity: .8;
+        }
+
+        header {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 55%, 50.5% 100%, 25% 75%, 0% 55%);
+            background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
+        }
+        
+        
+    </style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+<!--
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  formbutton("create", {action: "https://formspree.io/f/xrgoweyq"})
+</script> -->
+
+ <!-- This adds jquery and smooth scrolling, not part of the course but just to make your site look great! -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="main.js"></script>
+
+
    </head>
-<body>
+<body class="grid tablet mobile container" id="body">
 
-    <div class="Iam">
 
-        <p class="Iam">RadFox Web Designs</p>
-        <p class="Iam">Look no further if you're in need of a website that is</p>
-        
-          <div class="innerIam">
-            beautiful<br /> 
-            simple<br />
-            responsive<br />
-            user friendly<br />
-            click here for more.
-            </div>
-        </b>
-        
+    <!-- desktop header -->
+    
+   <header class="banner-top container">
+
+        <div class="container">
+            <nav class="text">
+            <button><a href="#about" id="#about">about</a></button>
+            <button><a href="#portfolio" id="#portfolio">portfolio</a></button>
+            </nav>
         </div>
+        
+        <div class="col-2" id="#top">
+            <a href="#top" class="no-border small">
+                <img src="favicon_io/radfox-apple-touch-icon.png">
+            </a>
+            </div>
 
-   </body>
-</html>-->
+        <div class="container">
+            <nav class="text">
+            <button><a href="#services" id="#services">services</a></button>
+            <button><a href="#contact" id="#contact">contact</a></button>
+            </nav>
+           
+        </div>
+    </header>
+    <section>
 
+    <!-- Mobile and Side Nav -->
+    <button class="trigger-menu dropbtn no-border mobile-header" onclick="openNav()"><img src="favicon_io/radfox-favicon.ico"><br>Menu</br></button>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#top" onclick="closeNav()">to the top</a>
+            <a href="#about" onclick="closeNav()">about</a>
+            <a href="#portfolio" onclick="closeNav()">portfolio</a>
+            <a href="#services" onclick="closeNav()">services</a>
+            <a href="#contact" onclick="closeNav()">contact</a>
+    </div>
+    
+    <!-- Section One -->
+    <section class="grid Iam">
+      <div>
+          <span>
+              <p class="col-12">Hey, welcome to my site.</p></span>
+              <span>
+              <p class="col-12">So, you need a website that is...</p>
+          </span>
+           <b>
+          <div class="col-12 innerIam">
+           beautiful<br /> 
+           simple<br />
+           user friendly<br />
+           responsive<br />
+           creative<br />
+          </div>
+          </b>
+      </div>
+</section>
 
+<!-- Description of what we do, something short and to the point -->
+
+<section>
+  <div class="col-12 padding paragraphs tablet mobile padded-top aos" id="about">
+    <h2>I've got you covered.</h2>
+    <p class="padded-top">My passion is creating user-friendly and simple yet creative websites.
+         Your business website will speak volumes to potential clients that visit. 
+         You need it to showcase exactly what you do and what your brand is all about.</p>
+         <p> I enjoy staying up to date on modern design and all those tricks and tips that help convince your visitors that your business is exactly what they've been searching for.</p>
+    </div>
+</section>
+    
+
+<!-- SERVICES SECTION that will include link to services page/call to action -->
+ <div class="banner-btm container-2 aos">
+    <section class="paragraphs tablet mobile padded-2">
+        <h2> The Standards You'll Receive </h2>
+        <div class="grid padded-top">
+          <div class="col-4_md-12_sm-12 bgd-square">
+            <h4 class="padded-top"> Intuitive </h4>
+            <p> Part of the website building process is doing the research to stay on top of the best UX/UI practices to keep your site user friendly and functional.</p>
+          </div>
+          <div class="col-4_md-12_sm-12 bgd-square">
+            <h4 class="padded-top"> Responsive </h4>
+            <p>Your website will work on devices small and large, and of course everything in between.</p>
+            <!--<a href="#" id="btn-border">see how that works</a>-->
+          </div>
+          <div class="col-4_md-12_sm-12 bgd-square">
+            <h4 class="padded-top"> Dynamic </h4>
+            <p>Features are built into your website to keep it running (and scrolling) smoothly. Options for features are endless.</p>
+          </div>
+        </div>
+    </section>
+</div>
+    
+    <!-- SECTION that will include maybe bio or workflow or ... idk yet D: -->
+ 
+    <section class="paragraphs aos" id="portfolio">
+       
+       <h2 class="col-12"> Take a peek at a few of my simple sample sites: </h2><br>
+       <a class="col-12 link" href="https://gifted-bartik-79a302.netlify.app/">Fitness Studio</a> <br>
+       <a class="col-12 link" href="https://laughing-meitner-b7ba04.netlify.app/">Bakery</a><br>
+       <a class="col-12 link" href="https://naughty-jang-688637.netlify.app/">Farmer's Market</a><br>
+       
+   </section>
+
+   <section class="padded centered paragraphs aos" id="services">
+     <div class="container-2">
+    <h2> Customized Website Packages </h2>
+    <p> Whatever your needs are, I'm happy to customize a package just for you. Websites are built from scratch and base prices for a 1 page site start at $250. Once we review what your website needs are and more of what you're wanting, we'll send you a quote. </p>
+     </div>
+    <div class="grid padded-05">
+      
+      <div class="col-4_sm-12 container-2">
+        <div class="clickable-box">
+          <div class="overlay padded light-text">
+            <h3> 1 Page Sites </h3>
+            <p> Best for one-person operations or small businesses just getting started...</p>
+            <!-- Trigger/Open The Modal -->
+            <a class="border-buttons" id="myBtn">Click to read more</a>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal1">
+
+            <!-- Modal content -->
+              <div class="modal-content paragraphs">
+                <span class="close1">&times;</span>
+                <h3> 1 Page Sites </h3>
+                <p>Best for one-person operations or small businesses just getting started
+                  that need an online presence and a main space that provides contact info, links, portfolios, etc.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-4_sm-12 container-2">
+        <div class="clickable-box">
+          <div class="overlay padded light-text">
+            <h3> 2-5+ Page Sites </h3>
+            <p> Most popular option for small businesses who are needing more specialized functions...</p>
+            <!-- Trigger/Open The Modal -->
+            <a class="border-buttons" id="myBtn2">Click to read more</a>
+
+              <!-- The Modal -->
+              <div id="myModal2" class="modal2">
+  
+               <!--Modal content -->
+                <div class="modal-content paragraphs">
+                  <span class="close2">&times;</span>
+                  <h3> 2-5+ Page Sites </h3>
+                  <p>Most popular option for small businesses who are needing more specialized functions that includes but not limited to scheduling, payment needs, user logins, etc.
+                </p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-4_sm-12 container-2">
+        <div class="clickable-box">
+          <div class="overlay padded light-text">
+            <h3> Website Makeovers </h3>
+            <p> Already have a site, but it's outdated or not quite what you were envisioning?...</p>
+              
+              <a class="border-buttons" id="myBtn3">Click to read more</a>
+
+              <!-- The Modal -->
+              <div id="myModal3" class="modal3">
+  
+              <!-- Modal content -->
+                <div class="modal-content paragraphs">
+                  <span class="close3">&times;</span>
+                  <h3> Website Makeovers </h3>
+                  <p>Already have a site, but it's outdated or not quite what you were envisioning? We offer a refactoring service to give your website a facelift and bring it into 2021.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+    <!-- CONTACT ME SECTION -->
+
+    <section class="grid padded paragraphs aos" id="contact">
+      <div class="col-12 padded">
+        <h2> Connect With Me </h2>
+        <p> Tell me about your rad business. Feel free to also share with me what you have in mind of what you want your business website to look like. I'm ready to make this process easy for you!</p>
+        <p class="mobile-hide"> <strong> Email: </strong> <a href="radfoxweb@gmail.com" id="link"> RadFoxWeb@gmail.com </a> </p>
+      </div>
+      <div class="col-12-middle padded container">
+        <form class="grid-center" action="https://formspree.io/hello@company.com" method="POST">
+          <div class="col-3_sm-12">
+            <input type="text" name="name" placeholder="Your Name">
+          </div>
+          <div class="col-3_sm-12">
+            <input type="email" name="_replyto" placeholder="Your Email">
+          </div>
+          <div class="col-12">
+            <textarea placeholder="Your Message"></textarea></div>
+          <div class="col-3_sm-12">  <input type="submit" value="Send" class="btn">
+          </div>
+        </form>
+      </div>
+    </section>
+<!--
+    <section class="col-12 paragraphs tablet mobile">
+        <div>
+               <h2 class="col-12">Ready to connect?</h2><br>
+        
+               <a href="contact.html" class="btn">Contact Me</a>
+            </div>
+    </section>
+
+-->
+      <!-- footer for insta link and copyrights -->
+
+        <footer class="col-12 paragraphs container">
+            
+            <div class="tiny">
+            <!-- stuff for footer here -->   
+            <p>Built by RadFox &copy; 2020-2021 all rights reserved.</p>
+            </div>
+        </footer>
+
+        <script src="main.js"></script>
+        <script src="scroll.js"></script>
+</body>
+</html>

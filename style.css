@@ -199,8 +199,6 @@ textarea {
     align-items: center;
     overflow: hidden;
     width: auto;
-    border-left: 1px solid rgb(67, 139, 77);/* #178b44;*/
-    border-right: 1px solid rgb(67, 139, 77);/*#178b44; #e74c3c;*/
    }
 
     .Iam div {
@@ -487,19 +485,18 @@ textarea {
   .padded-2 {  padding: 2rem;  }
 
   /* ANIMATED SCROLL */
+  /* SCROLL ANIMATION */
   .aos {
     position: relative;
-    top: 40px;
+    top: 20px;
     opacity: 0;
-    transition: 0.2s ease-out;
-    margin-bottom: 5vh;
-}
-
+    transition: 0.5s ease-out;
+    }
 .aos.active {
     top: 0;
     opacity: 1;
-    transform: translateY(-30px);
-    transition: 0.5s ease-in;
+    transform: translateY(-20px);
+    transition: .8s ease-in;
 }
 
   /* ---------------- Responsive TABLET design -------------------------- */

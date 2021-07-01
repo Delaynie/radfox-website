@@ -20,7 +20,7 @@ function scanElements(){
 
 function isVisible(element) {
     const elementDiv = element.getBoundingClientRect();
-    let distanceFromTop = -300;
+    let distanceFromTop = -50;
     return elementDiv.top - window.innerHeight < distanceFromTop ? true : false;
 }
 
