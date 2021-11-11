@@ -176,7 +176,7 @@ textarea {
 
 .paragraphs {
     padding: 2%;
-    font: normal 20px/40px Montserrat, sans-serif;
+    font: normal 20px/40px 'Montserrat', sans-serif;
     color: rgb(173, 172, 172);
     text-align: center;
     border-radius: 5px;
@@ -346,8 +346,11 @@ textarea {
         color: rgb(84, 177, 97);
         visibility: visible;
         overflow: hidden;
-        height: auto;
+        max-height: 100%;
         box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .link:hover {
         color: rgb(67, 139, 77);
@@ -429,9 +432,9 @@ textarea {
     #portfolio {
         overflow-x: hidden;
         overflow-y: hidden;
-        height: auto;
-        box-sizing: border-box;
-        position: sticky;
+    }
+    #portfolio a {
+        padding: 0;
     }
 
     /* The Modal (background) */
@@ -479,7 +482,7 @@ textarea {
   .centered {  text-align: center;   }
 
 
-  .padded   {  padding: 5%;    }
+  .padded   {  padding: 2%;    }
   .padded-05 {  padding: 0.5rem;  }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
