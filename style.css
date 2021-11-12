@@ -573,37 +573,38 @@ textarea {
         width: 100%;
     }
 
-    input, .input {
-        height: auto;
-        padding: 1% 2% 8% 2%;
+    input {
+        max-height: 100%;
+        padding: 5%;
         margin-bottom: 5%;
-        width: 100%;
+        max-width: 80%;
     }
 
-    label {
+    /*label {
         font-size: 22px;
         width: 100%;
-    }
+    }*/
 
     textarea {
-        height: auto;
-        padding: 1% 1% 15% 1%;
+        max-height: 100%;
+        padding: 5%;
         margin-bottom: 3%;
-        width: 100%;
+        max-width: 100%;
     }
 
-    .form {
+    /*.form {
         padding: 10%;
         display: flex;
         justify-content: center;
         flex-direction: column;
         margin: 0;
-    }
+    }*/
 
-    .btn-mobile {
-        width: 100%;
-        height: auto;
-        padding: 4%;
+    .btn {
+        width: 80%;
+        max-height: auto;
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
 
     footer {
