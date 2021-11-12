@@ -437,26 +437,7 @@ textarea {
         padding: 0;
     }
 
-    /* The Modal (background) */
-.modal1, .modal2, .modal3 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 2; /*Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: hidden; /* Enable scroll if needed */
-  }
-  
-  /* Modal Content/Box */
-  .modal-content {
-    background-color: #2d2d2d;
-    margin: 20% auto; /* 15% from the top and centered */
-    padding: 5%;
-    border: 1px solid rgb(2, 83, 16);
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
+   
   
   /* The Close Button */
   .close1, .close2, .close3 {
@@ -502,7 +483,33 @@ textarea {
     transition: .8s ease-in;
 }
 
-  /* ---------------- Responsive TABLET design -------------------------- */
+  /* ---------------- min-width medias ------------------- */
+
+  @media (min-width:900px) {
+/*slightly smaller texts, might be able to utilize a max-width query*/
+
+  }
+
+  @media (min-width:1400px) {
+/* bigger texts */
+
+  }
+
+  @media (min-width:1600px) {
+/* i think a little more margin is all this needs */
+
+  }
+
+  @media (min-width:1800px) {
+/* standards and package section need more padding and/or margin & larger nav links */
+
+  }
+
+  @media (min-width:2100px) {
+    /* slightly larger everything */
+  }
+
+  /*----------------- max-width medias --------------------*/
 
 @media (max-width:900px) {
 
