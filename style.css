@@ -485,31 +485,35 @@ textarea {
 
   /* ---------------- min-width medias ------------------- */
 
-  @media (min-width:900px) {
-/*slightly smaller texts, might be able to utilize a max-width query*/
-
-  }
-
   @media (min-width:1400px) {
-/* bigger texts */
+/* bigger texts. Use class large-screen. Possibly larger form but not sure yet */
 
   }
 
   @media (min-width:1600px) {
-/* i think a little more margin is all this needs */
+/* i think a little more margin is all this needs. Use class large-screen */
 
   }
 
   @media (min-width:1800px) {
-/* standards and package section need more padding and/or margin & larger nav links */
+/* standards and package section need more padding and/or margin use class paragraph-padding 
+& larger nav links, use class large-screen and nav button and possibly #top a, and tiny */
 
   }
 
   @media (min-width:2100px) {
-    /* slightly larger everything */
+    /* slightly larger everything, use class large-screen, sidenav */
+
+
   }
 
   /*----------------- max-width medias --------------------*/
+
+  @media (max-width:1399px) {
+    /* slightly smaller texts, smaller form especially the btn
+     -- use class laptop and contact-frm (input, textarea, btn) */
+    
+      }
 
 @media (max-width:900px) {
 
