@@ -184,7 +184,7 @@ textarea {
     color: rgb(173, 172, 172);
     text-align: center;
     border-radius: 5px;
-}
+} 
 
 .padding {
     padding-left: 10%;
@@ -197,7 +197,7 @@ textarea {
     padding-left: 5%;
     padding-right: 5%;
     font: normal 40px/50px Montserrat, sans-serif;
-    color: #999;
+    color: rgb(173, 172, 172);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,6 +217,7 @@ textarea {
     overflow-y: hidden;
     overflow-x: hidden;
     width: auto;
+    font-size: 30px;
   }
   .Iam b {
     display: inline-block;
@@ -230,7 +231,6 @@ textarea {
     top: 40px;
     width: auto;
    }
-   
 
     .Iam .innerIam {
         display: inline-block;
@@ -341,6 +341,12 @@ textarea {
           height: 400px;
           margin: -80px 0 0 20px;
       }*/
+
+      .laptop {
+          font-size: 26px;
+          padding-right: 5%;
+          padding-left: 5%;
+      }
 
       #row {
           flex-direction: row;
@@ -493,37 +499,62 @@ textarea {
     text-align: center;
 }
 
+
+
   /* ---------------- min-width medias ------------------- */
 
-  @media (min-width:1400px) {
+  @media (min-width:1300px) {
 /* bigger texts. Use class large-screen. Possibly larger form but not sure yet */
+    .laptop {
+        font-size: 26px;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .large-screen {
+        font-size: 24px;
+    }
 
+    .Iam {
+        font-size: 30px;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .innerIam {
+        font-size: 38px;
+    }
   }
 
   @media (min-width:1600px) {
 /* i think a little more margin is all this needs. Use class large-screen */
+    .laptop {
+        font-size: 30px;
+        padding: 2% 10%;
+    }
 
-  }
+    .large-screen {
+        padding: 2%;
+    }
+
+    .Iam {
+        font-size: 36px;
+    }
+    .innerIam {
+        font-size: 38px;
+    }
+    
+    .Iam div {
+        padding-bottom: 4%;
+    }
+}
 
   @media (min-width:1800px) {
-/* standards and package section need more padding and/or margin use class paragraph-padding 
-& larger nav links, use class large-screen and nav button and possibly #top a, and tiny */
-
-  }
-
-  @media (min-width:2100px) {
-    /* slightly larger everything, use class large-screen, sidenav */
-
-
+    header a {
+        font-size: 22px;
+    }
+    
   }
 
   /*----------------- max-width medias --------------------*/
-
-  @media (max-width:1399px) {
-    /* slightly smaller texts, smaller form especially the btn
-     -- use class laptop and contact-frm (input, textarea, btn) */
-    
-      }
 
 @media (max-width:900px) {
 
