@@ -647,6 +647,10 @@ input, .input {
         padding-top: 2%;
         padding-bottom: 2%;
     }
+
+    .angle {
+        height: 90vh;
+    }
     
 }
 
