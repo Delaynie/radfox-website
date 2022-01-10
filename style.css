@@ -630,11 +630,13 @@ input, .input {
     }
 
     #contact-frm-inputs {
-        width: 90%;
+        width: 100%;
+        height: 100%;
         flex-direction: column;
     }
 
     fieldset input, label {
+        justify-content: center;
         padding: 2%;
     }
 
