@@ -135,6 +135,7 @@ input, .input {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 /* ALL classes and Universal Styles */
@@ -629,16 +630,16 @@ input, .input {
         width: 100%;
     }
 
-    input {
+    .contact-frm-inputs {
         padding: 2%;
         margin-bottom: 2%;
-        max-width: 80%;
+        max-width: 100%;
     }
 
     #message {
         padding: 2%;
         margin-bottom: 3%;
-        max-width: 80%;
+        max-width: 100%;
     }
 
     .btn {
@@ -650,6 +651,7 @@ input, .input {
 
     .angle {
         clip-path: polygon(100% 0%, 100% 60%, 49% 80%, 0 60%, 0 0);
+        height: 80vh;
     }
     
 }
