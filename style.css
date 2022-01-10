@@ -582,7 +582,7 @@ textarea {
         font-size: 15px;
     }
 
-    .container3 {
+    .mobile-overflow {
         overflow-y: hidden;
         position: sticky;
      }
