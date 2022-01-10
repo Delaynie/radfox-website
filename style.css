@@ -8,6 +8,7 @@
 body {
     background: #2d2d2d;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 nav {
@@ -490,7 +491,11 @@ textarea {
     transform: translateY(-20px);
     transition: .8s ease-in;
 }
-
+.flexxy {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 3% 3% 3%;
+}
 .bgd-square {
     padding-left: 5%;
     padding-right: 5%;
