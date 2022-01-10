@@ -113,19 +113,22 @@ header {
 /* ----- form styling ----- */
 
 input, .input {
-    height: 10vh;
-    padding: .2% .6%;
+    max-width: 100%;
+    height: auto;
+    padding: 1%;
     border-radius: 5px;
-    width: 50vh;
+    box-sizing: border-box;
     margin: .5%;
 }
 
 #message {
+    width: 60%;
     height: auto;
-    padding: 2%;
-    width: 90%;
+    padding: 1%;
+    box-sizing: border-box;
     border-radius: 5px;
     margin: 2%;
+    resize: none;
 }
 
 .contact-frm-inputs {
@@ -586,10 +589,6 @@ input, .input {
         font-size: 30px;
     }
 
-    input, textarea {
-        color: black;
-    }
-
     .tiny p {
         font-size: 15px;
         padding: 2% 4%;
@@ -631,15 +630,13 @@ input, .input {
     }
 
     input {
-        max-height: 100%;
-        padding: 5%;
-        margin-bottom: 5%;
+        padding: 2%;
+        margin-bottom: 2%;
         max-width: 80%;
     }
 
-    textarea {
-        max-height: 100%;
-        padding: 5%;
+    #message {
+        padding: 2%;
         margin-bottom: 3%;
         max-width: 80%;
     }
