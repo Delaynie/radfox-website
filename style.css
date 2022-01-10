@@ -633,7 +633,7 @@ input, .input {
         padding: 5%;
         margin-bottom: 3%;
         max-width: 100%;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     #message {
