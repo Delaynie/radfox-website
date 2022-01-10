@@ -375,46 +375,6 @@ input, .input {
         background-size: cover;
         background-position: center;
       }
-      /* clickable boxes */
-      
-      .clickable-box {
-        color: inherit;
-        text-decoration: none;
-        box-shadow: 0 rgba(0, 0, 0, 0); /* so that we can add a transition */
-        transition: 0.2s all;
-        display: inline-block;
-        background: linear-gradient(0deg, #17241b93 30%, #02740244 100%);
-        border-radius: 5px;
-      }
-      
-      .clickable-box .overlay {
-        min-height: 12rem;
-        padding: 3rem 1rem;
-        background-color: rgba(0,0,10,0.4);
-        color: rgb(185, 184, 184);
-      }
-      
-      .clickable-box p {
-        margin-bottom: 0;
-        padding-bottom: 4%;
-      }
-      
-      .clickable-box:hover {
-        background-color: rgba(0,0,10,0.6);
-        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 20px -5px rgba(0, 0, 0, 0.4);
-        margin-top:-2px;
-      }
-
-      .clickable-box a, #btn-border {
-          color: inherit;
-          box-sizing: border-box;
-          border: 1px solid rgb(165, 164, 164);
-          padding: 4%;
-      }
-
-      .clickable-box a:hover {
-          background-color: rgb(2, 49, 8);
-      }
 
       #btn-border {
           font-size: 15px;
@@ -425,12 +385,13 @@ input, .input {
     background-color:  rgb(59, 122, 67);/*rgb(67, 139, 77);*/
     display: inline-block;
     align-items: center;
-    padding: 20px;
-    font-size: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
     height: auto;
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    width: 30%;
 }
       .btn:hover {
           color: rgb(224, 221, 221);
@@ -505,6 +466,7 @@ input, .input {
     justify-content: center;
 }
 
+    
     .angle {
         /*clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 60%, 50.5% 100%, 25% 75%, 0% 55%);*/
         /* message clip clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 48% 100%, 50% 75%, 0% 75%);*/
@@ -635,14 +597,15 @@ input, .input {
     }
 
     fieldset input, label {
-        padding: 2%;
+        padding: 5%;
         width: 100%;
-        max-width: 1.8rem;
+        font-size: 1.4rem;
     }
 
     #message {
         padding: 2%;
         margin-bottom: 3%;
+        font-size: 1.4rem;
         width: 100%;
     }
     /*
@@ -659,25 +622,15 @@ input, .input {
     .btn {
         width: 80%;
         max-height: auto;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         padding-top: 2%;
         padding-bottom: 2%;
         background-color: rgb(2, 70, 8);
-        border: 1px solid rgb(192, 192, 192);
-
-
     }
-    /*
-    form .btn {
-        padding: 10%;
-        font-size: 1.2rem;
-        background-color: rgb(2, 70, 8);
-        border: 1px solid rgb(192, 192, 192);
-      }*/
 
     .angle {
         clip-path: polygon(100% 0%, 100% 60%, 49% 80%, 0 60%, 0 0);
-        height: 85vh;
+        height: 88vh;
     }
     
 }
