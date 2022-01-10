@@ -580,12 +580,9 @@ textarea {
 
     .tiny p {
         font-size: 15px;
+        padding-left: 2%;
+        padding-right: 2%;
     }
-
-    .mobile-overflow {
-        overflow-y: hidden;
-        position: sticky;
-     }
 
 }
 
