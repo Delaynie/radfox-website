@@ -131,11 +131,10 @@ input, .input {
     resize: none;
 }
 
-.contact-frm-inputs {
+#contact-frm-inputs {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 /* ALL classes and Universal Styles */
@@ -630,16 +629,17 @@ input, .input {
         width: 100%;
     }
 
-    .contact-frm-inputs {
-        padding: 2%;
-        margin-bottom: 2%;
+    #contact-frm-inputs {
+        padding: 5%;
+        margin-bottom: 3%;
         max-width: 100%;
+        flex-direction: row;
     }
 
     #message {
         padding: 2%;
         margin-bottom: 3%;
-        max-width: 100%;
+        width: 100%;
     }
 
     .btn {
