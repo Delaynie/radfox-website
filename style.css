@@ -630,10 +630,12 @@ input, .input {
     }
 
     #contact-frm-inputs {
-        padding: 5%;
-        margin-bottom: 3%;
-        max-width: 100%;
+        width: 90%;
         flex-direction: column;
+    }
+
+    fieldset input, label {
+        padding: 2%;
     }
 
     #message {
