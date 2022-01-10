@@ -178,7 +178,7 @@ input, .input {
     align-items: center;
  }
 
-.paragraphs {
+ .paragraphs {
     padding: 2%;
     font: normal 20px/40px 'Montserrat', sans-serif;
     color: rgb(173, 172, 172);
@@ -455,18 +455,17 @@ input, .input {
     transform: translateY(-20px);
     transition: .8s ease-in;
 }
-.flexxy {
-    display: flex;
-    justify-content: space-around;
-    padding: 5% 3% 3% 3%;
-}
+
 .bgd-square {
     padding: 3% 5%;
     text-align: center;
     justify-content: center;
 }
-
-    
+.flexxy {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 3% 3% 3%;
+}
     .angle {
         /*clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 60%, 50.5% 100%, 25% 75%, 0% 55%);*/
         /* message clip clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 48% 100%, 50% 75%, 0% 75%);*/
@@ -475,6 +474,9 @@ input, .input {
         height: 75vh;
     }
 
+    .mobile-only {
+        display: none;
+    }
 
   /* ---------------- min-width medias ------------------- */
 
@@ -561,6 +563,12 @@ input, .input {
 
 @media (max-width:770px) {
 
+    .mobile-only {
+        display: block;
+    }
+    .desktop-only {
+        display: none;
+    }
     .trigger-menu {
         font-size: 20px;
         padding: 2%;
@@ -598,15 +606,15 @@ input, .input {
 
     fieldset input, label {
         padding: 5%;
-        width: 100%;
-        font-size: 1.4rem;
+        width: 80%;
+        font-size: 1.2rem;
     }
 
     #message {
         padding: 2%;
         margin-bottom: 3%;
-        font-size: 1.4rem;
-        width: 100%;
+        font-size: 1.2rem;
+        width: 80%;
     }
     /*
         input, textarea {
