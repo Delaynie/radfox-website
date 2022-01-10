@@ -649,7 +649,7 @@ input, .input {
     }
 
     .angle {
-        height: 90vh;
+        clip-path: polygon(100% 0%, 100% 60%, 49% 80%, 0 60%, 0 0);
     }
     
 }
