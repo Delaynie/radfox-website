@@ -156,10 +156,7 @@ textarea {
     padding-top: 2%;
     padding-bottom: 5%;
  }
- .container3 {
-    overflow-y: hidden;
- }
- 
+
  .container-2 {
     top: 0;
     width: 100%;
@@ -584,6 +581,11 @@ textarea {
     .tiny p {
         font-size: 15px;
     }
+
+    .container3 {
+        overflow-y: hidden;
+        position: sticky;
+     }
 
 }
 
