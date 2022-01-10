@@ -113,27 +113,25 @@ header {
 /* ----- form styling ----- */
 
 input, .input {
-    height: 35px;
-    padding: 5%;
-    margin-bottom: 5%;
+    height: 10vh;
+    padding: .2% .6%;
     border-radius: 5px;
-    width: 100%;
+    width: 50vh;
+    margin: .5%;
 }
 
-textarea {
+#message {
     height: auto;
-    padding: 1% 1% 5% 1%;
-    width: 80vh;
-    margin-bottom: 1.5%;
-    font-family: 'Montserrat', sans-serif;
+    padding: 2%;
+    width: 90%;
+    border-radius: 5px;
+    margin: 2%;
 }
 
-.form {
-    background-color: rgb(61, 61, 61);
-    padding: 5%;
-    margin-left: 18%;
-    margin-right: 18%;
-    box-shadow: 1px .5px 5px .5px rgb(37, 37, 37);
+.contact-frm-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ALL classes and Universal Styles */
@@ -342,9 +340,11 @@ textarea {
       }*/
 
       .laptop {
-          font-size: 26px;
           padding-right: 5%;
           padding-left: 5%;
+      }
+      .laptop p {
+          font-size: 20px;
       }
 
       #row {
@@ -472,7 +472,7 @@ textarea {
   .centered {  text-align: center;   }
 
 
-  .padded   {  padding: 2%;    }
+  .padded   {  padding: 2% 4%;    }
   .padded-05 {  padding: 0.5rem;  }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
@@ -497,11 +497,18 @@ textarea {
     padding: 5% 3% 3% 3%;
 }
 .bgd-square {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 3% 5%;
     text-align: center;
+    justify-content: center;
 }
 
+    .angle {
+        /*clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 60%, 50.5% 100%, 25% 75%, 0% 55%);*/
+        /* message clip clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 48% 100%, 50% 75%, 0% 75%);*/
+        clip-path: polygon(100% 0%, 100% 60%, 50% 100%, 50% 100%, 0 60%, 0 0);
+        background-color: rgb(53, 53, 53);
+        height: 75vh;
+    }
 
 
   /* ---------------- min-width medias ------------------- */
@@ -513,6 +520,7 @@ textarea {
         padding-right: 10%;
         padding-left: 10%;
     }
+    
     .large-screen {
         font-size: 24px;
     }
@@ -578,10 +586,13 @@ textarea {
         font-size: 30px;
     }
 
+    input, textarea {
+        color: black;
+    }
+
     .tiny p {
         font-size: 15px;
-        padding-left: 2%;
-        padding-right: 2%;
+        padding: 2% 4%;
     }
 
 }
