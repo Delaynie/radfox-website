@@ -113,12 +113,12 @@ header {
 /* ----- form styling ----- */
 
 input, .input {
-    max-width: 100%;
+    width: 20%;
     height: auto;
     padding: 1%;
     border-radius: 5px;
     box-sizing: border-box;
-    margin: .5%;
+    margin: .8%;
 }
 
 #message {
@@ -135,6 +135,7 @@ input, .input {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 3% 1%;
 }
 
 /* ALL classes and Universal Styles */
