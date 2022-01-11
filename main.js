@@ -88,3 +88,9 @@ window.onclick = function(event) {
     modal3.style.display = "none";
   }
 }
+
+// function to submit and pop up a thank you for submitting the form
+function submitForm() {
+  location.href=location.href;
+  alert('Success! Your inquiry has been submitted!');
+}
