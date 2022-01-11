@@ -53,6 +53,11 @@
 <!--
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
 -->
+<script>
+  $("#submitForm").click(function() {
+     alert("Thank you! Your form has been submitted.");
+  });
+</script>
    </head>
 <body class="grid tablet mobile" id="body">
 
@@ -209,7 +214,7 @@
             </fieldset>
               <textarea class="desktop-only" rows="4" name="message" id="message" placeholder="Your message..." required=""></textarea>
             
-          <div>  <input type="submit" value="Send" class="btn">
+          <div>  <input type="submit" value="Send" class="btn" id="submitForm">
           </div>
         </form>
     </section>
