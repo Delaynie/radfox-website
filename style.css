@@ -471,7 +471,7 @@ input, .input {
         /* message clip clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 48% 100%, 50% 75%, 0% 75%);*/
         clip-path: polygon(100% 0%, 100% 60%, 50% 100%, 50% 100%, 0 60%, 0 0);
         background-color: rgb(53, 53, 53);
-        height: 75vh;
+        height: 85vh;
     }
 
     .mobile-only {
@@ -557,7 +557,9 @@ input, .input {
         font-size: 15px;
         padding: 2% 4%;
     }
-
+    .angle {
+        height: 80vh;
+    }
 }
 
 
@@ -637,7 +639,7 @@ input, .input {
     }
 
     .angle {
-        clip-path: polygon(100% 0%, 100% 60%, 49% 80%, 0 60%, 0 0);
+        /*clip-path: polygon(100% 0%, 100% 60%, 49% 80%, 0 60%, 0 0);*/
         height: 88vh;
     }
     
