@@ -92,9 +92,5 @@ window.onclick = function(event) {
 // function to submit and pop up a thank you for submitting the form
 function submitForm() {
   location.href=location.href;
-  alert('Sorry! The form can\'t be submitted at this time! Please email radfoxweb@gmail.com');
+  alert('Thank you for your submission! Delaynie will get back with you soon!');
 }
-
-/* 1-10-22 FORMSPREE Currently not working. Tried troubleshooting, 
-      will try to contact someone to resolve the issues. Meanwhile I 
-      am learning to set it all up without using a third party :P */
