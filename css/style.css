@@ -472,7 +472,7 @@ input, .input {
         /* message clip clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 48% 100%, 50% 75%, 0% 75%);*/
         clip-path: polygon(100% 0%, 100% 60%, 50% 100%, 50% 100%, 0 60%, 0 0);
         background-color: rgb(53, 53, 53);
-        height: 85vh;
+        height: 40vh;
     }
 
     .mobile-only {
@@ -534,7 +534,11 @@ input, .input {
   }
 
   /*----------------- max-width medias --------------------*/
-
+@media (max-width:1100px) {
+    .angle {
+        height: 45vh;
+    }
+}
 @media (max-width:900px) {
 
     .mobile-hide {
@@ -559,7 +563,7 @@ input, .input {
         padding: 2% 4%;
     }
     .angle {
-        height: 80vh;
+        height: 45vh;
     }
 }
 
@@ -641,7 +645,7 @@ input, .input {
 
     .angle {
         /*clip-path: polygon(100% 0%, 100% 60%, 49% 80%, 0 60%, 0 0);*/
-        height: 88vh;
+        height: 70vh;
     }
     
 }
@@ -705,6 +709,9 @@ input, .input {
  
     .border-buttons {
         font-size: 15px;
+    }
+    .angle {
+        height: 55vh;
     }
 }
 
