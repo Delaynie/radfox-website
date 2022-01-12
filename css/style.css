@@ -679,6 +679,10 @@ input, .input {
         z-index: 2;
         color: rgb(173, 172, 172);
     }
+
+    .angle {
+        height: 80vh;
+    }
  
 }
 
