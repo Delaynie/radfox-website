@@ -538,9 +538,10 @@ input, .input {
   }
 
   /*----------------- max-width medias --------------------*/
-@media (max-width:1100px) {
+@media (max-width:1200px) {
     .angle {
-        height: 55vh;
+        clip-path: none;
+        height: auto;
     }
 }
 @media (max-width:900px) {
@@ -565,9 +566,6 @@ input, .input {
     .tiny p {
         font-size: 15px;
         padding: 2% 4%;
-    }
-    .angle {
-        height: 55vh;
     }
 }
 
@@ -646,11 +644,6 @@ input, .input {
         padding-bottom: 2%;
         background-color: rgb(2, 70, 8);
     }
-
-    .angle {
-        /*clip-path: polygon(100% 0%, 100% 60%, 49% 80%, 0 60%, 0 0);*/
-        height: 75vh;
-    }
     
 }
 
@@ -678,10 +671,6 @@ input, .input {
         width: 100%;
         z-index: 2;
         color: rgb(173, 172, 172);
-    }
-
-    .angle {
-        height: 80vh;
     }
  
 }
@@ -718,9 +707,7 @@ input, .input {
     .border-buttons {
         font-size: 15px;
     }
-    .angle {
-        height: 85vh;
-    }
+    
 }
 
 /* ----- END OF MEDIA QUERIES ----- */
