@@ -196,9 +196,11 @@ function submitForm() {
           <p class="mobile-hide"> <strong> Email: </strong> <a href="radfoxweb@gmail.com" id="link"> RadFoxWeb@gmail.com </a> </p>
       </div>
 
-        <form name="contact-form" action="/" method="POST" data-netlify-recaptcha="true" data-netlify="true" class="contact-frm">
+        <form name="contact-form" action="/" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="contact-frm">
+          <p class="hidden">
+            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+          </p>
           <div id="contact-frm-inputs" style="border: none;">
-          
             <label>Your Name:</label>
             <input type="text" name="name" required="" />   
           </div>
@@ -212,8 +214,6 @@ function submitForm() {
             <label style="display: flex; justify-content: center; align-items: center;">Your Message:</label>
             <textarea name="message" id="message" rows="4" required=""></textarea>
 
-            <div data-netlify-recaptcha="true" style="display: flex; justify-content: center; align-items: content; margin: 0 4% 3% 4%;" required="true"></div>
-            
             <p>
               <button type="submit" class="btn" onclick="submitForm()">Send</button>
             </p>

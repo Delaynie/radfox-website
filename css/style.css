@@ -112,6 +112,11 @@ header {
 
 /* ----- form styling ----- */
 
+/* for honeypot */
+.hidden {
+    display: none;
+}
+
 input {
     width: 30%;
     height: auto;
@@ -403,6 +408,7 @@ input {
     border: none;
     cursor: pointer;
     width: 30%;
+    margin-bottom: 2%;
 }
       .btn:hover {
           color: rgb(224, 221, 221);
