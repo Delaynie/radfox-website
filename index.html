@@ -53,19 +53,15 @@ function validateForm() {
   if (x == "") {
     alert("Your name is required!");
     return false;
-  }
-  if (y == "") {
+  } else if (y == "") {
     alert("Your email is required!");
     return false;
-  }
-  if (z == "") {
+  } else if (z == "") {
     alert("Your message is required!");
     return false;
+  } else {
+    alert("Thank you for your submission! Delaynie will get back with you soon!");
   }
-}
-function submitForm() {
-  alert("Thank you for your submission! Delaynie will get back with you soon!");
-}
     </script>
 
    </head>
@@ -230,7 +226,7 @@ function submitForm() {
             <textarea name="message" id="message" rows="4" required="true"></textarea>
 
             <p>
-              <button type="submit" class="btn" onclick="submitForm()">Send</button>
+              <button type="submit" class="btn">Send</button>
             </p>
         </form>
     </section>
