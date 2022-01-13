@@ -211,10 +211,12 @@ function submitForm() {
           
             <label style="display: flex; justify-content: center; align-items: center;">Your Message:</label>
             <textarea name="message" id="message" rows="4" required=""></textarea>
-          <p>
-            <button type="submit" class="btn" onclick="submitForm()">Send</button>
-          </p>
-          <div data-netlify-recaptcha="true" style="display: flex; justify-content: center; align-items: content; margin: 4% 0 2% 0;"></div>
+
+            <div data-netlify-recaptcha="true" style="display: flex; justify-content: center; align-items: content; margin: 4% 0 2% 0;"></div>
+            
+            <p>
+              <button type="submit" class="btn" onclick="submitForm()">Send</button>
+            </p>
         </form>
     </section>
 
