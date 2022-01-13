@@ -13,5 +13,8 @@ function closeNav() {
 function submitForm() {
   location.href=location.href;
   alert('Thank you for your submission! Delaynie will get back with you soon!');
-  document.getElementsByClassName("btn").submit();
+}
+
+function realSubmit() {
+  document.getElementsByClassName("btn").submit().submitForm();
 }
