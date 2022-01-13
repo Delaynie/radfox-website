@@ -589,9 +589,7 @@ input, .input {
 
 
 @media (max-width:770px) {
-    body {
-        margin: 1%;
-    }
+    
     .mobile-only {
         display: block;
     }
