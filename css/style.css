@@ -638,10 +638,12 @@ input, .input {
         padding: 5%;
         width: 80%;
         font-size: 1.2rem;
+        margin: 0;
     }
 
     #message {
         padding: 2%;
+        margin: 0;
         margin-bottom: 3%;
         font-size: 1.2rem;
         width: 80%;
@@ -650,7 +652,6 @@ input, .input {
         margin-left: 4%;
         margin-right: 4%;
         box-shadow: 1px 1x 1px 5px rgba(129, 129, 129, 0.3);
-        overflow-x: hidden;
     }
     /*
         input, textarea {
