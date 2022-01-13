@@ -112,8 +112,8 @@ header {
 
 /* ----- form styling ----- */
 
-input, .input {
-    width: 20%;
+input {
+    width: 30%;
     height: auto;
     padding: 1%;
     border-radius: 5px;
@@ -135,7 +135,8 @@ input, .input {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3% 1%;
+    flex-direction: column;
+    margin: 3% 1% 1% 1%;
 }
 .contact-frm {
     box-shadow: 0px 0px 8px 8px rgb(224, 221, 221, 0.5);
@@ -628,28 +629,28 @@ input, .input {
 
     #contact-frm-inputs {
         justify-content: center;
+        align-items: center;
         flex-direction: column;
-        margin: 0;
     }
 
-    fieldset input, label {
-        padding: 5%;
-        width: 80%;
+    input /* label*/{
+        padding: 2%;
+        width: 50%;
+        height: auto;
         font-size: 1.2rem;
         margin: 0;
     }
 
     #message {
         padding: 2%;
-        margin: 0;
-        margin-bottom: 3%;
+        margin: 1% 2% 3% 2%;
         font-size: 1.2rem;
         width: 80%;
     }
     .contact-frm {
         margin-left: 4%;
         margin-right: 4%;
-        box-shadow: 1px 1x 1px 5px rgba(129, 129, 129, 0.3);
+        box-shadow: 0px 0x 1px 5px rgba(129, 129, 129, 0.3);
     }
     /*
         input, textarea {
@@ -663,12 +664,12 @@ input, .input {
     }*/
 
     .btn {
-        width: 80%;
+        width: 60%;
         max-height: auto;
         font-size: 1.4rem;
         padding-top: 2%;
         padding-bottom: 2%;
-        background-color: rgb(2, 70, 8);
+        background-color: rgb(59, 122, 67);
     }
     
 }

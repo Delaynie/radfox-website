@@ -189,32 +189,21 @@
           <p class="mobile-hide"> <strong> Email: </strong> <a href="radfoxweb@gmail.com" id="link"> RadFoxWeb@gmail.com </a> </p>
       </div>
 
-      <!--  Form for website 
-        <form name="contact-form" method="POST" data-netlify="true" class="contact-frm" id="contact-frm" accept-charset="utf-8" action="/">
-            <fieldset name="fieldset" id="contact-frm-inputs" style="border: none;">
-              <label>Name:</label>
-              <input type="text" name="name" id="full-name" placeholder="Your Name" required="">
-              <label>Email:</label>
-              <input type="email" name="_replyto" id="email-address" placeholder="Your Email" required="">
-              <label class="mobile-only">Message:</label>
-              <textarea class="mobile-only" rows="4" name="message" id="message" placeholder="Your message..." required=""></textarea>
-            </fieldset>
-            <textarea class="desktop-only" rows="4" name="message-desktop" id="message" placeholder="Your message..." required=""></textarea>          
-          <div>  <button type="submit" value="Send" class="btn">Send</button>
-          </div>
-        </form> -->
         <form name="contact-form" method="POST" data-netlify="true" class="contact-frm">
           <div id="contact-frm-inputs" style="border: none;">
-          <p>
-            <label>Your Name: <input type="text" name="name" required="" /></label>   
-          </p>
-          <p>
-            <label>Your Email: <input type="email" name="email" required="" /></label>
-          </p>
-        </div>
-          <p>
-            <label style="display: flex; justify-content: center; align-items: center;">Message: &ThinSpace;<textarea name="message" id="message" rows="4" required=""></textarea></label>
-          </p>
+          
+            <label>Your Name:</label>
+            <input type="text" name="name" required="" />   
+          </div>
+          <div id="contact-frm-inputs">
+          
+            <label>Your Email:</label>
+            <input type="email" name="email" required="" />
+          
+          </div>
+          
+            <label style="display: flex; justify-content: center; align-items: center;">Your Message:</label>
+            <textarea name="message" id="message" rows="4" required=""></textarea>
           <p>
             <button type="submit" class="btn">Send</button>
           </p>
