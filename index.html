@@ -196,7 +196,7 @@ function submitForm() {
           <p class="mobile-hide"> <strong> Email: </strong> <a href="radfoxweb@gmail.com" id="link"> RadFoxWeb@gmail.com </a> </p>
       </div>
 
-        <form name="contact-form" action="/" method="POST" data-netlify="true" class="contact-frm">
+        <form name="contact-form" action="/" method="POST" data-netlify-recaptcha="true" data-netlify="true" class="contact-frm">
           <div id="contact-frm-inputs" style="border: none;">
           
             <label>Your Name:</label>
@@ -214,6 +214,7 @@ function submitForm() {
           <p>
             <button type="submit" class="btn" onclick="submitForm()">Send</button>
           </p>
+          <div data-netlify-recaptcha="true"></div>
         </form>
     </section>
 
