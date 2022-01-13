@@ -46,20 +46,7 @@
 
     <script>
       // function to submit and pop up a thank you for submitting the form
-function validateForm() {
-  let x = document.forms["contact-form"]["name"].value;
-  let y = document.forms["contact-form"]["email"].value;
-  let z = document.forms["contact-form"]["message"].value;
-  if (x == "") {
-    alert("Your name is required!");
-    return false;
-  } else if (y == "") {
-    alert("Your email is required!");
-    return false;
-  } else if (z == "") {
-    alert("Your message is required!");
-    return false;
-  } else {
+function submitForm() {
     alert("Thank you for your submission! Delaynie will get back with you soon!");
   }
     </script>
@@ -209,7 +196,7 @@ function validateForm() {
           <p class="mobile-hide"> <strong> Email: </strong> <a href="radfoxweb@gmail.com" id="link"> RadFoxWeb@gmail.com </a> </p>
       </div>
 
-        <form name="contact-form" action="/" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="contact-frm" onsubmit="return validateForm()">
+        <form name="contact-form" action="/" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="contact-frm" onsubmit="return submitForm()">
           <p class="hidden">
             <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
           </p>
