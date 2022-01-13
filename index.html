@@ -203,18 +203,20 @@
           <div>  <button type="submit" value="Send" class="btn">Send</button>
           </div>
         </form> -->
-        <form name="contact-form" method="POST" data-netlify="true">
+        <form name="contact-form" method="POST" data-netlify="true" class="contact-frm">
+          <div id="contact-frm-inputs" style="border: none;">
           <p>
-            <label>Your Name: <input type="text" name="name" /></label>   
+            <label>Your Name: <input type="text" name="name" required="" /></label>   
           </p>
           <p>
-            <label>Your Email: <input type="email" name="email" /></label>
+            <label>Your Email: <input type="email" name="email" required="" /></label>
+          </p>
+        </div>
+          <p>
+            <label style="display: flex; justify-content: center; align-items: center;">Message: &ThinSpace;<textarea name="message" id="message" rows="4" required=""></textarea></label>
           </p>
           <p>
-            <label>Message: <textarea name="message"></textarea></label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
+            <button type="submit" class="btn">Send</button>
           </p>
         </form>
     </section>
