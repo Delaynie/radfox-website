@@ -137,6 +137,16 @@ input, .input {
     align-items: center;
     margin: 3% 1%;
 }
+.contact-frm {
+    box-shadow: 0px 0px 8px 8px rgb(224, 221, 221, 0.5);
+    padding-bottom: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+    .contact-frm:hover {
+        background-color: #1b1b1b;
+        transition: .5s ease-in-out;
+    }
 
 /* ALL classes and Universal Styles */
 .banner-top, .banner-btm {
@@ -538,20 +548,25 @@ input, .input {
   }
 
   /*----------------- max-width medias --------------------*/
-@media (max-width:1200px) {
+@media (max-width:1300px) {
+    .angle {
+        height: 75vh;
+    }
+}
+
+@media (max-width:950px) {
     .angle {
         clip-path: none;
         height: auto;
+        background-color: #2d2d2d;
+        /*background-color: #2d2d2d;*/
     }
-}
-@media (max-width:900px) {
-
     .mobile-hide {
         display: none;
     }
 
     .tablet h2 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .tablet p {
@@ -560,6 +575,9 @@ input, .input {
 
     .Iam p {
         /*color: rgb(212, 212, 8);*/
+        font-size: 26px;
+    }
+    .innerIam {
         font-size: 30px;
     }
 
@@ -567,6 +585,7 @@ input, .input {
         font-size: 15px;
         padding: 2% 4%;
     }
+    
 }
 
 
@@ -611,6 +630,7 @@ input, .input {
     #contact-frm-inputs {
         justify-content: center;
         flex-direction: column;
+        margin: 0;
     }
 
     fieldset input, label {
@@ -624,6 +644,10 @@ input, .input {
         margin-bottom: 3%;
         font-size: 1.2rem;
         width: 80%;
+        margin: 0;
+    } 
+    input, .input {
+        margin: 0;
     }
     /*
         input, textarea {
