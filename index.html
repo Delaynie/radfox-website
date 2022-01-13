@@ -189,8 +189,8 @@
           <p class="mobile-hide"> <strong> Email: </strong> <a href="radfoxweb@gmail.com" id="link"> RadFoxWeb@gmail.com </a> </p>
       </div>
 
-        <form class="contact-frm" id="contact-frm" name="contact-form" accept-charset="utf-8" method="POST" data-netlify="true">
-            <fieldset id="contact-frm-inputs" style="border: none;">
+        <form name="contact-form" class="contact-frm" id="contact-frm" accept-charset="utf-8" method="POST" data-netlify="true">
+            <fieldset name="fieldset" id="contact-frm-inputs" style="border: none;">
               <label>Name:</label>
               <input type="text" name="name" id="full-name" placeholder="Your Name" required="">
               <label>Email:</label>
@@ -198,8 +198,8 @@
               <label class="mobile-only">Message:</label>
               <textarea class="mobile-only" rows="4" name="message" id="message" placeholder="Your message..." required=""></textarea>
             </fieldset>
-            <textarea class="desktop-only" rows="4" name="message" id="message" placeholder="Your message..." required=""></textarea>          
-          <div>  <input type="submit" value="Send" class="btn">
+            <textarea class="desktop-only" rows="4" name="message-desktop" id="message" placeholder="Your message..." required=""></textarea>          
+          <div>  <input name="submit" type="submit" value="Send" class="btn">
           </div>
         </form>
     </section>
