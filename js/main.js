@@ -14,7 +14,3 @@ function submitForm() {
   location.href=location.href;
   alert('Thank you for your submission! Delaynie will get back with you soon!');
 }
-
-function realSubmit() {
-  document.getElementsByClassName("btn").submit();
-}
