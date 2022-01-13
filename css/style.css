@@ -647,7 +647,7 @@ input, .input {
     .contact-frm {
         margin-left: 1%;
         margin-right: 1%;
-        box-shadow: 0px 0x 2px 2px rgb(224, 221, 221), 0.3;
+        box-shadow: 0px 0x 2px 2px rgba(173, 173, 173, 0.3);
     }
     /*
         input, textarea {
