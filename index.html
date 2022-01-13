@@ -44,6 +44,13 @@
         }
     </style>
 
+    <script>
+      // function to submit and pop up a thank you for submitting the form
+function submitForm() {
+  alert("Thank you for your submission! Delaynie will get back with you soon!");
+}
+    </script>
+
    </head>
 <body class="grid tablet mobile" id="body">
 
@@ -205,7 +212,7 @@
             <label style="display: flex; justify-content: center; align-items: center;">Your Message:</label>
             <textarea name="message" id="message" rows="4" required=""></textarea>
           <p>
-            <button type="submit" class="btn" script="alert(Thank you for your submission!')">Send</button>
+            <button type="submit" class="btn" onclick="submitForm()">Send</button>
           </p>
         </form>
     </section>
