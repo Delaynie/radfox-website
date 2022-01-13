@@ -23,6 +23,8 @@ header {
     align-items: center;
     margin-bottom: 5%;
     z-index: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 55%, 50.5% 100%, 25% 75%, 0% 55%);
+    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);    
 }
   header button, a {
       padding: .5% 2%;
@@ -42,6 +44,15 @@ header {
       transition: .5s;
       color: rgb(218, 65, 73);
   }
+
+  .no-border {
+    box-shadow: none;
+    border-color: transparent;
+    }   
+        .no-border:hover {
+            background-color: inherit;
+            opacity: .8;
+        }
 
   footer {
       background-color: rgb(61, 61, 61);
@@ -107,8 +118,6 @@ header {
   .sidenav a:hover {
     color: #f1f1f1;
   }
-
-/* ----- End of Dropdown Menu -----*/
 
 /* ----- form styling ----- */
 
@@ -366,10 +375,6 @@ input {
           font-size: 20px;
       }
 
-      #row {
-          flex-direction: row;
-      }
-
       .link {
         color: rgb(84, 177, 97);
         visibility: visible;
@@ -477,6 +482,7 @@ input {
     padding: 3% 5%;
     text-align: center;
     justify-content: center;
+    background-color: rgb(53, 52, 52);
 }
 .flexxy {
     display: flex;
@@ -484,8 +490,6 @@ input {
     padding: 5% 3% 3% 3%;
 }
     .angle {
-        /*clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 60%, 50.5% 100%, 25% 75%, 0% 55%);*/
-        /* message clip clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 48% 100%, 50% 75%, 0% 75%);*/
         clip-path: polygon(100% 0%, 100% 60%, 50% 100%, 50% 100%, 0 60%, 0 0);
         background-color: rgb(53, 53, 53);
         height: 45vh;
