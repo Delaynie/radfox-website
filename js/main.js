@@ -16,5 +16,5 @@ function submitForm() {
 }
 
 function realSubmit() {
-  document.getElementsByClassName("btn").submit().submitForm();
+  document.getElementsByClassName("btn").submit();
 }
