@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     
-    <!-- Email Icon-->
+    <!-- Icon -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/radfox-apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/radfox-favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/radfox-favicon-16x16.png">    
@@ -202,17 +202,15 @@ function submitForm() {
           </p>
           <div id="contact-frm-inputs" style="border: none;">
             <label>Your Name:</label>
-            <input type="text" name="name" required="" />   
+            <input type="text" name="name" required="true" />   
           </div>
           <div id="contact-frm-inputs">
-          
             <label>Your Email:</label>
-            <input type="email" name="email" required="" />
-          
+            <input type="email" name="email" required="true" />
           </div>
           
             <label style="display: flex; justify-content: center; align-items: center;">Your Message:</label>
-            <textarea name="message" id="message" rows="4" required=""></textarea>
+            <textarea name="message" id="message" rows="4" required="true"></textarea>
 
             <p>
               <button type="submit" class="btn" onclick="submitForm()">Send</button>
