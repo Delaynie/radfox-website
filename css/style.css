@@ -716,9 +716,7 @@ input {
 }
 
 @media (max-width:500px) {
-    html {
-        width: 100%;
-    }
+    
     body {
         display: flex;
         justify-content: center;
@@ -733,15 +731,15 @@ input {
     .banner-top {
         padding-top: 10%;
         padding-bottom: 10%;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 
     .banner-btm {
         padding-top: 1%;
         padding-bottom: 1%;
-        padding-right: 0;
-        padding-left: 0;
+        padding-right: 2%;
+        padding-left: 2%;
     }
 
     .innerIam {
