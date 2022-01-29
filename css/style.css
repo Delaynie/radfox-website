@@ -159,7 +159,7 @@ input {
 }
     .contact-frm:hover {
         background-color: #1b1b1b;
-        transition: .5s ease-in-out;
+        transition: .8s ease-in-out;
     }
 
 /* ALL classes and Universal Styles */
@@ -569,7 +569,6 @@ input {
         clip-path: none;
         height: auto;
         background-color: #2d2d2d;
-        /*background-color: #2d2d2d;*/
     }
     .mobile-hide {
         display: none;
@@ -714,7 +713,7 @@ input {
 
 @media (max-width:500px) {
     html {
-        max-width: 100vw;
+        max-width: 99vw;
         overflow-x: hidden;
     }
     
