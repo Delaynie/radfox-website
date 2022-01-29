@@ -716,12 +716,13 @@ input {
 }
 
 @media (max-width:500px) {
-
+    html {
+        width: 100%;
+    }
     body {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100vw;
         margin: 0;
     }
     
