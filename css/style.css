@@ -722,7 +722,7 @@ input {
         justify-content: center;
         align-items: center;
         overflow-x: hidden;
-        width: auto;
+        width: 105%;
         margin-left: auto;
         margin-right: auto;
     }
