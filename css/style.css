@@ -721,7 +721,7 @@ input {
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 99vw;
+        max-width: 99.9vw;
         margin: 0;
     }
     
