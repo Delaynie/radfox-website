@@ -603,8 +603,8 @@ input {
         font-size: 30px;
     }
 
-    .tiny p {
-        font-size: 15px;
+    .tiny {
+        font-size: 12px;
         padding: 2% 4%;
     }
     
@@ -728,6 +728,7 @@ input {
 
     footer {
         padding: 3%;
+        font-size: 14px;
     }
  
 }
