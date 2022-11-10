@@ -26,7 +26,7 @@ header {
     clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 55%, 50.5% 100%, 25% 75%, 0% 55%);
     background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);    
 }
-  header button, a {
+  header button, header a {
       padding: .5% 2%;
       margin: 2% 2%;
       cursor: pointer;
@@ -389,6 +389,15 @@ input {
         color: rgb(67, 139, 77);
       }
 
+    .here {
+          
+          font-size: inherit;
+          color: rgb(173, 172, 172);
+      }
+      .here:hover {
+          color: rgb(67, 139, 77);
+      }
+
       /* Services Css */
 
       .bg-image {
@@ -631,7 +640,7 @@ input {
         padding: 0px;
     }
 
-    header button, a {
+    header button, header a {
         font-size: 20px;
     }
 
@@ -711,6 +720,10 @@ input {
         width: 100%;
         z-index: 2;
         color: rgb(173, 172, 172);
+    }
+
+    .link {
+        font-size: 25px;
     }
 
     footer {
